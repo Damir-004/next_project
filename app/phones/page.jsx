@@ -28,7 +28,7 @@ function Phone() {
     const selectedPost = posts.find((post) => post.id === postId);
     setBlockId(postId);
     setBlock(selectedPost);
-    const newURL = `http://localhost:3000/phone/${postId}`;
+    const newURL = `https://next-project-ilk2.vercel.app/phone/${postId}`;
     window.history.pushState(null, '', newURL);
   };
   useEffect(() => {
