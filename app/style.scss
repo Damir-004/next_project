@@ -59,17 +59,8 @@
     .container_top{
         display: flex;
         justify-content: space-between;
-        .serch{
-            width: 35%;
-            margin: 0 auto;
-            display: flex;
-            border: 2px solid rgb(233, 233, 233);
-            border-radius: 20px;
-            padding: 5px;
-            svg{
-                width: 30px;
-                margin: 5px;
-            }
+        #input_top{
+            width: 40%;
         }
         .cart{
             width: 20%;
