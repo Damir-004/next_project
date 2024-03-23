@@ -58,6 +58,7 @@
     }
     .container_top{
         display: flex;
+        justify-content: space-between;
         .serch{
             width: 35%;
             margin: 0 auto;
@@ -68,10 +69,6 @@
             svg{
                 width: 30px;
                 margin: 5px;
-            }
-            #input_top{
-                width: 260px;
-                
             }
         }
         .cart{
