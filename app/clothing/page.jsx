@@ -98,7 +98,7 @@ function Clothing() {
           <input
             type="text"
             className="box_sort_filter"
-            placeholder="Filter"
+            placeholder="Search"
             value={filter}
             onChange={handleFilterChange}
           />
